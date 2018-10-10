@@ -8,6 +8,9 @@
 
 import UIKit
 
+//Constant to hold a delightful shade, Wenderlich Green
+let themeColor = UIColor(red: 0.01, green: 0.41, blue: 0.22, alpha: 1.0)
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //Use Wenderlich Green as a theme color for the whole app
+        window?.tintColor = themeColor
         return true
     }
 

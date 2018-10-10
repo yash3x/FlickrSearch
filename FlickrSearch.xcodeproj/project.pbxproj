@@ -15,6 +15,7 @@
 		6990F6A4216E25BD00D97B50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6990F6A2216E25BD00D97B50 /* Main.storyboard */; };
 		6990F6A6216E25BE00D97B50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6990F6A5216E25BE00D97B50 /* Assets.xcassets */; };
 		6990F6A9216E25BE00D97B50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6990F6A7216E25BE00D97B50 /* LaunchScreen.storyboard */; };
+		69F69930216E7C970000888F /* FlickrPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F6992F216E7C970000888F /* FlickrPhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		6990F6A5216E25BE00D97B50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6990F6A8216E25BE00D97B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6990F6AA216E25BE00D97B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69F6992F216E7C970000888F /* FlickrPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrPhotoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				6990F6A7216E25BE00D97B50 /* LaunchScreen.storyboard */,
 				6990F6AA216E25BE00D97B50 /* Info.plist */,
 				697C10E3216E315F00A40EDB /* FlickrPhotosViewController.swift */,
+				69F6992F216E7C970000888F /* FlickrPhotoCell.swift */,
 			);
 			path = FlickrSearch;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				697C10EA216E587F00A40EDB /* Flickr.swift in Sources */,
 				6990F69F216E25BC00D97B50 /* AppDelegate.swift in Sources */,
 				697C10E9216E587F00A40EDB /* FlickrSearchResults.swift in Sources */,
+				69F69930216E7C970000888F /* FlickrPhotoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
